@@ -1,16 +1,14 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package caesar_playfair_cipher;
+ 
+*Programmer : Amal Assem Dora .
+*experience :2 Years in Java programming language .
+*Education : fourth year in computer science departement in faculty of electronic engineering (2019/2020).
+*THis code to generate a cryptographic system by using technique caesar cipher .
+*/
+package Encryption_Techniques;
 
-/**
- *
- * @author ncm
- */
 public class CaesarCipher {
-
+ //encrypted functin in caesar cipher
     public static String encrypt_Caeser(String plain, int key) {
         char Alphabet;
         String encryptedText = "";
@@ -27,7 +25,7 @@ public class CaesarCipher {
         }
         return encryptedText;
     }
-
+ //decrypted functin in caesar cipher
     public static String decrypt_Caeser(String cipher, int key) {
         char Alphabet;
         String decryptedText = "";
